@@ -78,9 +78,14 @@ public class GameConstants {
 	public static boolean CAN_PLAYERS_YELL = true;
 
 	/**
+	 * If normal players can yell, how many hours of game time do they need to earn the privilege?
+	 */
+	public static int YELL_THRESHOLD = 24;
+
+	/**
 	 * The gameframe's tab interface ids.
 	 */
-	public static final int TAB_INTERFACES[] = { 2423, 3917, 31000, 3213, 1644, 5608, -1, 37128, 5065, 5715, 2449,
+	public static final int[] TAB_INTERFACES = { 2423, 3917, 31000, 3213, 1644, 5608, -1, 37128, 5065, 5715, 2449,
 			42500, 147, 32000 };
 
 	/**
