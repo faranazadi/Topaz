@@ -1,0 +1,399 @@
+{
+  "username": "Oaky3",
+  "password": "tja",
+  "title": "empty",
+  "staff-rights": "NONE",
+  "donator-rights": "NONE",
+  "position": {
+    "x": 3088,
+    "y": 3494,
+    "z": 0
+  },
+  "spell-book": "NORMAL",
+  "fight-type": "CROSSBOW_RAPID",
+  "auto-retaliate": false,
+  "xp-locked": false,
+  "target-teleport": false,
+  "preserve": false,
+  "rigour": false,
+  "augury": false,
+  "has-veng": false,
+  "last-veng": 0,
+  "running": true,
+  "run-energy": 87,
+  "spec-percentage": 100,
+  "recoil-damage": 0,
+  "poison-damage": 0,
+  "poison-immunity": 0,
+  "fire-immunity": 0,
+  "teleblock-timer": 0,
+  "prayerblock-timer": 0,
+  "target-search-timer": 0,
+  "special-attack-restore-timer": 0,
+  "skull-timer": 0,
+  "skull-type": "WHITE_SKULL",
+  "total-kills": 0,
+  "target-kills": 0,
+  "normal-kills": 0,
+  "killstreak": 0,
+  "highest-killstreak": 0,
+  "recent-kills": [],
+  "deaths": 0,
+  "points": 0,
+  "amount-donated": 0,
+  "blowpipe-scales": 0,
+  "barrows-crypt": 0,
+  "barrows-chests": 0,
+  "brothers-killed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "gwd-kills": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "pouches": [
+    {
+      "pouch": "SMALL_POUCH",
+      "runeEssenceAmt": 0,
+      "pureEssenceAmt": 0
+    },
+    {
+      "pouch": "MEDIUM_POUCH",
+      "runeEssenceAmt": 0,
+      "pureEssenceAmt": 0
+    },
+    {
+      "pouch": "LARGE_POUCH",
+      "runeEssenceAmt": 0,
+      "pureEssenceAmt": 0
+    },
+    {
+      "pouch": "GIANT_POUCH",
+      "runeEssenceAmt": 0,
+      "pureEssenceAmt": 0
+    }
+  ],
+  "inventory": [
+    {
+      "id": -1,
+      "amount": 0
+    },
+    {
+      "id": 892,
+      "amount": 499
+    },
+    {
+      "id": 2444,
+      "amount": 1
+    },
+    {
+      "id": 2440,
+      "amount": 1
+    },
+    {
+      "id": 861,
+      "amount": 1
+    },
+    {
+      "id": 5698,
+      "amount": 1
+    },
+    {
+      "id": 3024,
+      "amount": 1
+    },
+    {
+      "id": 2436,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 6685,
+      "amount": 1
+    },
+    {
+      "id": 6685,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    }
+  ],
+  "equipment": [
+    {
+      "id": 1169,
+      "amount": 1
+    },
+    {
+      "id": 10499,
+      "amount": 1
+    },
+    {
+      "id": 1712,
+      "amount": 1
+    },
+    {
+      "id": 9185,
+      "amount": 1
+    },
+    {
+      "id": 1129,
+      "amount": 1
+    },
+    {
+      "id": 3842,
+      "amount": 1
+    },
+    {
+      "id": -1,
+      "amount": 0
+    },
+    {
+      "id": 2497,
+      "amount": 1
+    },
+    {
+      "id": -1,
+      "amount": 0
+    },
+    {
+      "id": 7458,
+      "amount": 1
+    },
+    {
+      "id": 3105,
+      "amount": 1
+    },
+    {
+      "id": -1,
+      "amount": 0
+    },
+    {
+      "id": -1,
+      "amount": 0
+    },
+    {
+      "id": 9244,
+      "amount": 499
+    }
+  ],
+  "appearance": [
+    0,
+    3,
+    18,
+    26,
+    34,
+    38,
+    42,
+    14,
+    2,
+    14,
+    5,
+    4,
+    0
+  ],
+  "skills": {
+    "level": [
+      75,
+      1,
+      99,
+      85,
+      99,
+      52,
+      99,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "maxLevel": [
+      75,
+      1,
+      99,
+      99,
+      99,
+      52,
+      99,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "experience": [
+      1210421,
+      0,
+      13034431,
+      13034659,
+      13034773,
+      123660,
+      13034431,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "quick-prayers": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "friends": [],
+  "ignores": [],
+  "bank-0": [
+    {
+      "id": 1052,
+      "amount": 2
+    },
+    {
+      "id": 11978,
+      "amount": 3
+    }
+  ],
+  "bank-1": [],
+  "bank-2": [],
+  "bank-3": [],
+  "bank-4": [],
+  "bank-5": [],
+  "bank-6": [],
+  "bank-7": [],
+  "bank-8": [],
+  "bank-9": []
+}

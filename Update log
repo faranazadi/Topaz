@@ -1,0 +1,12 @@
+[16/09/2020]
+- Fixed some packet sizes, but seems to have messed special bar up. Will investigate.
+- Fixed not being able to cast veng, even after 30 seconds
+
+[19/09/2020]
+- All stat draining and refilling has been fixed, should just be like OSRS now
+- Fixed being able to autocast without a staff equipped
+
+[20/09/2020]
+- Redone all mage book interfaces, the original ones were glitchy as fuck
+- Fixed backdoor where ::players command gives the user donator rank
+- Fixed glitchy special bar by repacking models in the client's cache, this happens when packing newer data

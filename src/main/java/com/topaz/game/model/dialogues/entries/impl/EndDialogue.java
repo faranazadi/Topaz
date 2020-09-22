@@ -1,0 +1,16 @@
+package com.topaz.game.model.dialogues.entries.impl;
+
+import com.topaz.game.entity.impl.player.Player;
+import com.topaz.game.model.dialogues.entries.Dialogue;
+
+public class EndDialogue extends Dialogue {
+
+    public EndDialogue(int index) {
+        super(index);
+    }
+
+    @Override
+    public void send(Player player) {
+        player.getPacketSender().sendInterfaceRemoval();
+    }
+}

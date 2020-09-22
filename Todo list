@@ -1,0 +1,4 @@
+- Fix range animations and projectiles
+- Fix veng anim and gfx
+- Fix crowns appearing on line below with ::yell command
+- Fix special attack bar (model fucks up when spec has been used, needs repacking apparently)
