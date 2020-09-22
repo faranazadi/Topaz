@@ -1,0 +1,27 @@
+package com.topaz.game.model.commands.impl;
+
+import java.util.Arrays;
+import java.util.List;
+
+import com.topaz.game.entity.impl.player.Player;
+import com.topaz.game.model.commands.Command;
+
+public class Title implements Command {
+
+    private static final List<String> INAPPROPRIATE_TITLES = Arrays.asList("nigger", "ass", "boobs");
+
+    @Override
+    public void execute(Player player, String command, String[] parts) {
+        if (INAPPROPRIATE_TITLES.stream().anyMatch(title -> parts[1].toLowerCase().contains(title))) {
+            player.getPacketSender().sendMessage("You're not allowed to have that in your title.");
+            return;
+        }
+        player.setLoyaltyTitle("@blu@" + parts[1]);
+    }
+
+    @Override
+    public boolean canUse(Player player) {
+        return true;
+    }
+
+}

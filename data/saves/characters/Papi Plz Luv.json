@@ -1,0 +1,408 @@
+{
+  "username": "Papi Plz Luv",
+  "password": "str8head",
+  "title": "empty",
+  "staff-rights": "NONE",
+  "donator-rights": "NONE",
+  "position": {
+    "x": 3109,
+    "y": 3903,
+    "z": 0
+  },
+  "spell-book": "NORMAL",
+  "fight-type": "SCIMITAR_SLASH",
+  "auto-retaliate": false,
+  "xp-locked": false,
+  "clanchat": "General",
+  "target-teleport": false,
+  "preserve": false,
+  "rigour": false,
+  "augury": false,
+  "has-veng": false,
+  "last-veng": 0,
+  "running": true,
+  "run-energy": 100,
+  "spec-percentage": 100,
+  "recoil-damage": 0,
+  "poison-damage": 0,
+  "poison-immunity": 0,
+  "fire-immunity": 0,
+  "teleblock-timer": 0,
+  "prayerblock-timer": 0,
+  "target-search-timer": 37,
+  "special-attack-restore-timer": 0,
+  "skull-timer": 0,
+  "skull-type": "WHITE_SKULL",
+  "total-kills": 1,
+  "target-kills": 1,
+  "normal-kills": 0,
+  "killstreak": 0,
+  "highest-killstreak": 1,
+  "recent-kills": [
+    "25.90.61.132"
+  ],
+  "deaths": 8,
+  "points": 0,
+  "amount-donated": 0,
+  "blowpipe-scales": 0,
+  "barrows-crypt": 0,
+  "barrows-chests": 0,
+  "brothers-killed": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "gwd-kills": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "pouches": [
+    {
+      "pouch": "SMALL_POUCH",
+      "runeEssenceAmt": 0,
+      "pureEssenceAmt": 0
+    },
+    {
+      "pouch": "MEDIUM_POUCH",
+      "runeEssenceAmt": 0,
+      "pureEssenceAmt": 0
+    },
+    {
+      "pouch": "LARGE_POUCH",
+      "runeEssenceAmt": 0,
+      "pureEssenceAmt": 0
+    },
+    {
+      "pouch": "GIANT_POUCH",
+      "runeEssenceAmt": 0,
+      "pureEssenceAmt": 0
+    }
+  ],
+  "inventory": [
+    {
+      "id": 2440,
+      "amount": 1
+    },
+    {
+      "id": 2436,
+      "amount": 1
+    },
+    {
+      "id": 3024,
+      "amount": 1
+    },
+    {
+      "id": 3024,
+      "amount": 1
+    },
+    {
+      "id": 6685,
+      "amount": 1
+    },
+    {
+      "id": 6685,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 5698,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    },
+    {
+      "id": 385,
+      "amount": 1
+    }
+  ],
+  "equipment": [
+    {
+      "id": 1153,
+      "amount": 1
+    },
+    {
+      "id": 1052,
+      "amount": 1
+    },
+    {
+      "id": 1725,
+      "amount": 1
+    },
+    {
+      "id": 4587,
+      "amount": 1
+    },
+    {
+      "id": 1115,
+      "amount": 1
+    },
+    {
+      "id": 3842,
+      "amount": 1
+    },
+    {
+      "id": -1,
+      "amount": 0
+    },
+    {
+      "id": 2497,
+      "amount": 1
+    },
+    {
+      "id": -1,
+      "amount": 0
+    },
+    {
+      "id": 7458,
+      "amount": 1
+    },
+    {
+      "id": 3105,
+      "amount": 1
+    },
+    {
+      "id": -1,
+      "amount": 0
+    },
+    {
+      "id": -1,
+      "amount": 0
+    },
+    {
+      "id": -1,
+      "amount": 0
+    }
+  ],
+  "appearance": [
+    0,
+    3,
+    18,
+    26,
+    34,
+    38,
+    42,
+    14,
+    2,
+    14,
+    5,
+    4,
+    0
+  ],
+  "skills": {
+    "level": [
+      75,
+      1,
+      99,
+      99,
+      99,
+      52,
+      99,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "maxLevel": [
+      75,
+      1,
+      99,
+      99,
+      99,
+      52,
+      99,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "experience": [
+      1210421,
+      0,
+      13034959,
+      13034791,
+      13034431,
+      123660,
+      13034431,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "quick-prayers": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "friends": [
+    975225
+  ],
+  "ignores": [],
+  "bank-0": [
+    {
+      "id": 11978,
+      "amount": 6
+    },
+    {
+      "id": 1052,
+      "amount": 8
+    },
+    {
+      "id": 13307,
+      "amount": 400
+    }
+  ],
+  "bank-1": [],
+  "bank-2": [],
+  "bank-3": [],
+  "bank-4": [],
+  "bank-5": [],
+  "bank-6": [],
+  "bank-7": [],
+  "bank-8": [],
+  "bank-9": []
+}
