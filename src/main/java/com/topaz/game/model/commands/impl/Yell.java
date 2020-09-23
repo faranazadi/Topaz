@@ -30,13 +30,12 @@ public class Yell implements Command {
 			return;
 		}
 		if (!player.getYellDelay().finished()) {
-			player.getPacketSender().sendMessage(
-					"You must wait another " + player.getYellDelay().secondsRemaining() + " seconds to do that.");
+			player.getPacketSender().sendMessage("You must wait another " + player.getYellDelay().secondsRemaining() + " seconds use the yell channel.");
 			return;
 		}
 		final String yellMessage = command.substring(4, command.length());
 		if (Misc.blockedWord(yellMessage)) {
-		//	DialogueManager.sendStatement(player, "A word was blocked in your sentence. Please do not repeat it!");
+			player.getPacketSender().sendMessage("You tried to yell a word deemed unacceptable. Please choose your language carefully.");
 			return;
 		}
 
@@ -46,7 +45,7 @@ public class Yell implements Command {
 		
 		// Crown draws on the line below the message for some reason, need to fix
 		// TODO: fix crowns in yell
-		String yell = ("" + getYellPrefix(player) + " " + player.getUsername() + ":" + yellMessage);
+		String yell = ("[@red@Global Chat@bla@]" + getYellPrefix(player) + " " + player.getUsername() + ":" + yellMessage);
 		World.getPlayers().forEach(e -> e.getPacketSender().sendSpecialMessage(player.getUsername(), 21, yell));
 		
 		int yellDelay = getYellDelay(player);
@@ -57,10 +56,17 @@ public class Yell implements Command {
 
 	@Override
 	public boolean canUse(Player player) {
-		if (player.isStaff() || player.isDonator() || GameConstants.CAN_PLAYERS_YELL == true) {
+		if ((player.isStaff() || player.isDonator()) && !GameConstants.CAN_PLAYERS_YELL) {
 			return true;
 		}
-		player.getPacketSender().sendMessage("Sorry, you do not have the privelige to use the yell channel yet. Please donate to use the yell channel or");
+		/*if (GameConstants.CAN_PLAYERS_YELL && GameConstants.IS_YELL_RESTRICTED && (Misc. >= GameConstants.YELL_THRESHOLD)) {
+			return true;
+		}*/
+		if (GameConstants.CAN_PLAYERS_YELL)
+		{
+			return true;
+		}
+		player.getPacketSender().sendMessage("Sorry, you do not have the privilege to use the yell channel. The yell channel is for staff, donors and players who have reached " + GameConstants.YELL_THRESHOLD + " hours of gameplay.");
 		return false;
 	}
 }

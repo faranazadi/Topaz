@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Elvarg-Game-Server.iml" filepath="$PROJECT_DIR$/Elvarg-Game-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topaz-Game-Server.iml" filepath="$PROJECT_DIR$/Topaz-Game-Server.iml" />
     </modules>
   </component>
 </project>

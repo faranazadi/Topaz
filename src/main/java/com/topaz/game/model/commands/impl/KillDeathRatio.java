@@ -3,7 +3,7 @@ package com.topaz.game.model.commands.impl;
 import com.topaz.game.entity.impl.player.Player;
 import com.topaz.game.model.commands.Command;
 
-public class Kdr implements Command {
+public class KillDeathRatio implements Command {
 
     @Override
     public void execute(Player player, String command, String[] parts) {

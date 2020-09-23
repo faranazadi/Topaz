@@ -30,8 +30,7 @@ public final class Projectile {
         this.privateArea = privateArea;
     }
 
-    public Projectile(Mobile source, Mobile victim, int projectileId, int delay, int speed, int startHeight,
-            int endHeight) {
+    public Projectile(Mobile source, Mobile victim, int projectileId, int delay, int speed, int startHeight, int endHeight) {
         this(source.getLocation(), victim.getLocation(), victim, projectileId, delay, speed, startHeight, endHeight, source.getPrivateArea());
     }
 

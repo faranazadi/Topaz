@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Elvarg-Game-Server" />
+        <module name="Topaz-Game-Server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Elvarg-Game-Server" target="1.8" />
+      <module name="Topaz-Game-Server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

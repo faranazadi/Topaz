@@ -78,7 +78,12 @@ public class GameConstants {
 	public static boolean CAN_PLAYERS_YELL = true;
 
 	/**
-	 * If normal players can yell, how many hours of game time do they need to earn the privilege?
+	 * Is there a restriction on newly created accounts from the yell channel?
+	 */
+	public static boolean IS_YELL_RESTRICTED = true;
+
+	/**
+	 * How many hours of game time do normal players need before they earn the privilege to use yell?
 	 */
 	public static int YELL_THRESHOLD = 24;
 

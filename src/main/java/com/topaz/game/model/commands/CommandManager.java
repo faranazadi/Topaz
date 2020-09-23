@@ -27,7 +27,7 @@ import com.topaz.game.model.commands.impl.InterfaceCommand;
 import com.topaz.game.model.commands.impl.IpBanPlayer;
 import com.topaz.game.model.commands.impl.IpMutePlayer;
 import com.topaz.game.model.commands.impl.ItemSpawn;
-import com.topaz.game.model.commands.impl.Kdr;
+import com.topaz.game.model.commands.impl.KillDeathRatio;
 import com.topaz.game.model.commands.impl.KickPlayer;
 import com.topaz.game.model.commands.impl.ListSizesCommand;
 import com.topaz.game.model.commands.impl.LockExperience;
@@ -88,7 +88,7 @@ public class CommandManager {
         put(new LockExperience(), "lockxp");
         put(new Claim(), "claim");
         put(new CreationDate(), "creationdate");
-        put(new Kdr(), "kdr");
+        put(new KillDeathRatio(), "kdr");
         put(new Players(), "players");
         put(new OpenThread(), "thread");
         put(new TimePlayed(), "timeplayed");
